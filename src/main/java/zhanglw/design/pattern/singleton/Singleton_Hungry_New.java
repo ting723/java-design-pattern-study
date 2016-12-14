@@ -5,7 +5,7 @@ package zhanglw.design.pattern.singleton;
  */
 public class Singleton_Hungry_New {
 
-    private static Singleton_Hungry_New singleton = null;
+    private static final Singleton_Hungry_New singleton;
 
     static {
         singleton = new Singleton_Hungry_New();
